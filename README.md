@@ -1,1 +1,2 @@
-# <span style="color:red;">expOS case study</span>
+# expOS case study
+---
