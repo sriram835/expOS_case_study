@@ -40,4 +40,22 @@ The commands for this assignment are given in the OS case study report.pdf.
 - Press `c` to step to next break point.
 - Enter `reg` to see register values at a paticular point of execution.
 
+## Stage 6:
+1. Go to xfs-interface folder.
+2. Run `./xfs-interface load --int=10 ../spl/spl_progs/haltprog.xsm`
+3. Run `./xfs-interface load --exhandler ../spl/progs/haltprog.xsm`
+4. Run `./xfs-interface load --init ../stage6/squares.xsm`
+5. Run `./xfs-interface load --os ../stage6/os_startup.xsm`
+6. Go to xsm folder and run `./xsm --debug --timer 0`
+
+- Enter `c` to go to next break point.
+- Enter `s` to go to next instruction.
+- Enter `reg` see the register values.
+
+### assignment 1:
+1. Go to xfs-interface folder.
+2. Run `./xfs-interface load --init ../stage6/assignment/squares.xsm`
+3. Run `./xfs-interface load --os ../stage6/assignment/os_startup.xsm`
+4. Go to xsm folder and run `./xsm --debug --timer 0`
+
 
